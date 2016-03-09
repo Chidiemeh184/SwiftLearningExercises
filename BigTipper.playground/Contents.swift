@@ -1,3 +1,11 @@
+//================================================================
+//  NAME: CHIDI EMEH
+//  COURSE: CSCI 2994 (iOS Programming Fundamentals)
+//  FILENAME: BigTipper.playground
+//  DATE: 02/16/2016
+//  EXERCISE 1: This program demonstrate the use of variables and
+//              constants and the use of if statement
+//=================================================================
 
 /*:
 **Exercise:**
