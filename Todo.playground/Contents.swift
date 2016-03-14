@@ -12,9 +12,9 @@ import Foundation
 // This is the parent to-do with all the information and decription.
 
 var todoList =  (   (day: "Monday", date: "2/5/2016", time: 1200, title: "Run 100 Miles", description: (" Run to Upper Arlington", " Go to the park", " Stay there if warm")),
-    (day: "Tuesday", date: "2/6/2016", time: 1800, title: "Go to the Bar", description: ("Go to the bar and drink a few beers", " Think on app ideas for iphone and android ")),
+    (day: "Tuesday", date: "2/6/2016", time: 1800, title: "Go to the Bar", description: ("Work on apps", " Think on app ideas for iphone and android ")),
     (day: "Wednesday", date: "2/7/2016", time: 1800, title: "Go to ios class", description:(" Do some reading and go to class")),
-    (day: "Wednesday", date: "2/7/2016", time: 2100, title: "Go to bar after ios class", description:(" Stop at bar for few beers", " Think on more app ideas", "Head home")))
+    (day: "Wednesday", date: "2/7/2016", time: 2100, title: "Go to bar after ios class", description:(" Do some reading", " Think on more app ideas", "Head home")))
 
 
 
