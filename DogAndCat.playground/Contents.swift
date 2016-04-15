@@ -191,7 +191,6 @@ tom.growingHeight = 5
 tom.chase(what: "Jerry the mouse")
 tom.sleeping(sleepingWhere: "the counch")
 
-tom = nil;
 
 
 
