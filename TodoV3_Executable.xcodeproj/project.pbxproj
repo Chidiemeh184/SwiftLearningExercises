@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF091AFC1CD021390008DAE0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF091AFB1CD021390008DAE0 /* main.swift */; };
+		EF091B031CD022D50008DAE0 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF091B021CD022D50008DAE0 /* Todo.swift */; };
+		EF091B051CD022FB0008DAE0 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF091B041CD022FB0008DAE0 /* Container.swift */; };
+		EF091B071CD025E70008DAE0 /* readInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF091B061CD025E70008DAE0 /* readInt.swift */; };
+		EF091B091CD026670008DAE0 /* readString.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF091B081CD026670008DAE0 /* readString.swift */; };
+		EF091B0B1CD02BEC0008DAE0 /* fuctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF091B0A1CD02BEC0008DAE0 /* fuctions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF091AF61CD021390008DAE0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EF091AF81CD021390008DAE0 /* TodoV3_Executable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TodoV3_Executable; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF091AFB1CD021390008DAE0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EF091B021CD022D50008DAE0 /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		EF091B041CD022FB0008DAE0 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		EF091B061CD025E70008DAE0 /* readInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = readInt.swift; sourceTree = "<group>"; };
+		EF091B081CD026670008DAE0 /* readString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = readString.swift; sourceTree = "<group>"; };
+		EF091B0A1CD02BEC0008DAE0 /* fuctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fuctions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF091AF51CD021390008DAE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF091AEF1CD021390008DAE0 = {
+			isa = PBXGroup;
+			children = (
+				EF091AFA1CD021390008DAE0 /* TodoV3_Executable */,
+				EF091AF91CD021390008DAE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF091AF91CD021390008DAE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF091AF81CD021390008DAE0 /* TodoV3_Executable */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF091AFA1CD021390008DAE0 /* TodoV3_Executable */ = {
+			isa = PBXGroup;
+			children = (
+				EF091AFB1CD021390008DAE0 /* main.swift */,
+				EF091B021CD022D50008DAE0 /* Todo.swift */,
+				EF091B041CD022FB0008DAE0 /* Container.swift */,
+				EF091B061CD025E70008DAE0 /* readInt.swift */,
+				EF091B081CD026670008DAE0 /* readString.swift */,
+				EF091B0A1CD02BEC0008DAE0 /* fuctions.swift */,
+			);
+			path = TodoV3_Executable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF091AF71CD021390008DAE0 /* TodoV3_Executable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF091AFF1CD021390008DAE0 /* Build configuration list for PBXNativeTarget "TodoV3_Executable" */;
+			buildPhases = (
+				EF091AF41CD021390008DAE0 /* Sources */,
+				EF091AF51CD021390008DAE0 /* Frameworks */,
+				EF091AF61CD021390008DAE0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodoV3_Executable;
+			productName = TodoV3_Executable;
+			productReference = EF091AF81CD021390008DAE0 /* TodoV3_Executable */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF091AF01CD021390008DAE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Chidi Emeh";
+				TargetAttributes = {
+					EF091AF71CD021390008DAE0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EF091AF31CD021390008DAE0 /* Build configuration list for PBXProject "TodoV3_Executable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF091AEF1CD021390008DAE0;
+			productRefGroup = EF091AF91CD021390008DAE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF091AF71CD021390008DAE0 /* TodoV3_Executable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF091AF41CD021390008DAE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF091AFC1CD021390008DAE0 /* main.swift in Sources */,
+				EF091B091CD026670008DAE0 /* readString.swift in Sources */,
+				EF091B051CD022FB0008DAE0 /* Container.swift in Sources */,
+				EF091B031CD022D50008DAE0 /* Todo.swift in Sources */,
+				EF091B0B1CD02BEC0008DAE0 /* fuctions.swift in Sources */,
+				EF091B071CD025E70008DAE0 /* readInt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EF091AFD1CD021390008DAE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF091AFE1CD021390008DAE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EF091B001CD021390008DAE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF091B011CD021390008DAE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF091AF31CD021390008DAE0 /* Build configuration list for PBXProject "TodoV3_Executable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF091AFD1CD021390008DAE0 /* Debug */,
+				EF091AFE1CD021390008DAE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF091AFF1CD021390008DAE0 /* Build configuration list for PBXNativeTarget "TodoV3_Executable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF091B001CD021390008DAE0 /* Debug */,
+				EF091B011CD021390008DAE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF091AF01CD021390008DAE0 /* Project object */;
+}
